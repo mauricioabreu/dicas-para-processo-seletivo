@@ -38,3 +38,15 @@ Explique também porque você escolheu a linguagem:
 
 Há muitos frameworks hoje em dia, e muitos extremamente populares. Fica até difícil escolher um às vezes, não é?
 Explicar as decisões técnicas de um framework pode ir desde sua popularidade até sua base de desenvolvedores e limitações tecnicas que ele tem. Escolha um framework que você está acostumado e que você conheça como os pontos positivos dele podem ajudar você a resolver o problema.
+
+#### Escrevendo código
+
+Desde a resolução de fizzbuzz, conjectura de Collatz, um jogo de luta ou uma aplicação web, é muito importante que seu código funcione como esperado. Abaixo segue uma lista de dicas para alcançar esse objetivo:
+
+##### Documentação
+
+Produza uma documentação com os passos necessários para executar o projeto, para testar o projeto e até para verificar coverage, linters e outras ferramentas que podem aferir que você escreveu o código seguindo padrões já estabelecidos.
+
+Não deixe de documentar o que você faria se tivesse mais tempo. Cada débito técnico que você deixou pode virar uma oportunidade de demonstrar como você resolveria se tivesse mais tempo e conhecimento.
+
+Se o projeto for uma API web, use algum tipo de ferramenta como o [swagger](https://swagger.io/). Além da ferramenta documentar as principais rotas da sua API, ela também facilita o teste com uma UI poderosa.
