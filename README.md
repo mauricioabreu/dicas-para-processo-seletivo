@@ -32,3 +32,9 @@ Algumas empresas pedem que a pessoa candidata documente as decisões tomadas no 
 
 Se o seu projeto usa banco de dados, explique por qual motivo você escolheu um banco relacional, por exemplo:
 > Eu escolhi o banco de dados PostgreSQL pois as entidades do projeto tem fortes relacionamentos. Além disso, a quantidade de joins nas consultas me levou a escolher esse banco. Adicionalmente, o suporte a JSON oferecido pelo banco de dados ajudou a resolver a parte X do problema.
+
+Explique também porque você escolheu a linguagem:
+> Eu escolhi a linguagem Rust porque ela é uma linguagem ótima pro problema. O problema exige muito uso de memória pois nele preciso traduzir um IP para coordenadas geográficas, e esse banco é mapeado em memória. Rust lida muito bem com memória. Outro fato é que a linguagem tem um suporte bom para programação funcional e ela é imutável por padrão, o que me ajuda a escrever um código mais correto.
+
+Há muitos frameworks hoje em dia, e muitos extremamente populares. Fica até difícil escolher um às vezes, não é?
+Explicar as decisões técnicas de um framework pode ir desde sua popularidade até sua base de desenvolvedores e limitações tecnicas que ele tem. Escolha um framework que você está acostumado e que você conheça como os pontos positivos dele podem ajudar você a resolver o problema.
