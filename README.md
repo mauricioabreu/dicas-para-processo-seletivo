@@ -31,4 +31,4 @@ Vale ressaltar que a linguagem que você mais domina não é a qual você sabe t
 Algumas empresas pedem que a pessoa candidata documente as decisões tomadas no projeto. Independente desse pedido existir, documentar os motivos de cada decisão pode elevar suas chances em busca de uma resposta positiva no processo, além de ser um ótimo exercício para sua evolução.
 
 Se o seu projeto usa banco de dados, explique por qual motivo você escolheu um banco relacional, por exemplo:
->>> Eu escolhi o banco de dados PostgreSQL pois as entidades do projeto tem fortes relacionamentos. Além disso, a quantidade de joins nas consultas me levou a escolher esse banco. Adicionalmente, o suporte a JSON oferecido pelo banco de dados ajudou a resolver a parte X do problema.
+> Eu escolhi o banco de dados PostgreSQL pois as entidades do projeto tem fortes relacionamentos. Além disso, a quantidade de joins nas consultas me levou a escolher esse banco. Adicionalmente, o suporte a JSON oferecido pelo banco de dados ajudou a resolver a parte X do problema.
