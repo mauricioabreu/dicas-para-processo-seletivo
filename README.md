@@ -55,7 +55,7 @@ Se o projeto for uma API web, use algum tipo de ferramenta como o [swagger](http
 
 Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa, pois esta é uma das partes que mais contam para entender o seu jeito de pensar ao resolver um problema. Abaixo uma lista de dicas para te ajudar a evoluir mais rápido e consistente na resolução:
 
-* Escreve em algum lugar todos os passos que você acha necessários para chegar na solução;
+* Escreva em algum lugar todos os passos que você acha necessários para chegar na solução;
 * A seguir teste algumas hipóteses, mesmo sem testes. Elas vão te dar uma visão suficiente e com feedback rápido sobre a dificuldade do problema;
 * Tudo bem se você não é do time que escreve testes antes do código, mas lembre de ir criando testes ao longo do desenvolvimento. Eles vão ajudar você a não quebrar o que já funciona;
 * Utilize Makefile ou scripts para acelerar builds, execução dos diversos testes, para subir a aplicação, etc. Não esqueça de colocar na documentação do projeto todas esses comandos;
