@@ -8,7 +8,7 @@ Um melhor desempenho começa antes da entrevista, antes mesmo de você aplicar p
 
 Conhecer a empresa que você vai trabalhar, como é o clima, remuneração e como a empresa ganha dinheiro são pontos que podem decidir se vale a pena o esforço mental gasto.
 
-Se você é mulher cis ou trans, LGBTQIA+, pessoa preta ou que sofre preconceito por outras características, a sugestão é conferir se na empresa há pessoas com características semelhantes as suas.
+Se você é mulher cis ou trans, LGBTQIA+, pessoa preta ou que sofre preconceito por outras características, a sugestão é conferir se na empresa há pessoas com características semelhantes as suas. Isso pode ajudar a entender se a empresa vai proporcionar um lugar seguro para você se desenvolver.
 
 ## Desafio técnico
 
