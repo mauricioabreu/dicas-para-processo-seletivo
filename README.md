@@ -50,3 +50,7 @@ Produza uma documentação com os passos necessários para executar o projeto, p
 Não deixe de documentar o que você faria se tivesse mais tempo. Cada débito técnico que você deixou pode virar uma oportunidade de demonstrar como você resolveria se tivesse mais tempo e conhecimento.
 
 Se o projeto for uma API web, use algum tipo de ferramenta como o [swagger](https://swagger.io/). Além da ferramenta documentar as principais rotas da sua API, ela também facilita o teste com uma UI poderosa.
+
+##### Resolvendo o problema
+
+...
