@@ -22,7 +22,7 @@ Ao receber o desafio, é importante ler todo o enunciado com calma. Caso você t
 
 #### Escolhendo as tecnologias
 
-Geralmente os desafios deixam em aberto a escolha da tecnologia a ser utilizada. Dito isso, use a tecnologia que você mais domina. Isso é muito importante pois o seu código tende a ficar com uma qualidade maior e mais legível.
+Geralmente os desafios deixam em aberto a escolha da tecnologias a serem utilizadas. Dito isso, use a tecnologia que você mais domina. Isso é muito importante pois o seu projeto tende a ficar com uma qualidade maior, mais robusto e mais fácil de entender e explicar.
 
 Vale ressaltar que a ferramenta que você mais domina não é a qual você sabe tudo sobre ela, mas sim a que te deixa mais confortável para escrever o código que resolve o problema, os testes, os scripts de execução, deploy, etc.
 
