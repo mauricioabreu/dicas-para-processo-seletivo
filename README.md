@@ -14,19 +14,15 @@ Se você é mulher cis ou trans, LGBTQIA+, pessoa preta ou que sofre preconceito
 
 Concordando ou não com a aplicação de desafios técnicos, boa parte das empresas de tecnologia tem isso como parte principal do processo seletivo.
 
-### Entendendo o objetivo
-
 Ao receber o desafio, é importante ler todo o enunciado com calma. Caso você tenha perguntas, mande um e-mail para a empresa visando esclarecer os pontos que pareceram confusos.
 
-### Desenvolvendo
-
-#### Escolhendo as tecnologias
+### Escolhendo as tecnologias
 
 Geralmente os desafios deixam em aberto a escolha da tecnologias a serem utilizadas. Dito isso, use a tecnologia que você mais domina. Isso é muito importante pois o seu projeto tende a ficar com uma qualidade maior, mais robusto e mais fácil de entender e explicar.
 
 Vale ressaltar que a ferramenta que você mais domina não é a qual você sabe tudo sobre ela, mas sim a que te deixa mais confortável para escrever o código que resolve o problema, os testes, os scripts de execução, deploy, etc.
 
-#### Documente suas decisões
+### Comente sobre suas decisões
 
 Algumas empresas pedem que a pessoa candidata documente as decisões tomadas no projeto. Independente desse pedido existir, documentar os motivos de cada decisão pode elevar suas chances em busca de uma resposta positiva no processo, além de ser um ótimo exercício para sua evolução.
 
@@ -39,11 +35,11 @@ Explique também porque você escolheu a linguagem:
 Há muitos frameworks hoje em dia, e muitos extremamente populares. Fica até difícil escolher um às vezes, não é?
 Explicar as decisões técnicas de um framework pode ir desde sua popularidade até sua base de desenvolvedores e limitações tecnicas que ele tem. Escolha um framework que você está acostumado e que você conheça como os pontos positivos dele podem ajudar você a resolver o problema.
 
-#### Escrevendo código
+### Escrevendo código
 
 Desde a resolução de fizzbuzz, conjectura de Collatz, um jogo de luta ou uma aplicação web, é muito importante que seu código funcione como esperado. Abaixo segue uma lista de dicas para alcançar esse objetivo:
 
-##### Documentação
+### Documentação
 
 Produza uma documentação com os passos necessários para executar o projeto, para testar o projeto e até para verificar coverage, linters e outras ferramentas que podem aferir que você escreveu o código seguindo padrões já estabelecidos.
 
@@ -51,7 +47,7 @@ Não deixe de documentar o que você faria se tivesse mais tempo. Cada débito t
 
 Se o projeto for uma API web, use algum tipo de ferramenta como o [swagger](https://swagger.io/). Além da ferramenta documentar as principais rotas da sua API, ela também facilita o teste com uma UI poderosa.
 
-##### Resolvendo o problema
+### Resolvendo o problema
 
 Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa, pois esta é uma das partes que mais contam para entender o seu jeito de pensar ao resolver um problema. Abaixo uma lista de dicas para te ajudar a evoluir mais rápido e consistente na resolução:
 
