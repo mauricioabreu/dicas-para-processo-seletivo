@@ -1,6 +1,6 @@
 # Dicas para o seu processo seletivo
 
-Se você tem dificuldade de resolver os desafios de processos seletivos ou não sabe como se desenvolver em uma entrevista tecnica, talvez as dicas a seguir podem te ajudar.
+Se você tem dificuldade de resolver os desafios de processos seletivos ou não sabe como se desenvolver em uma entrevista técnica, talvez as dicas a seguir podem te ajudar.
 
 ## Antes de aplicar para a vaga
 
