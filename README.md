@@ -58,5 +58,6 @@ Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa,
 * Escreva em algum lugar todos os passos que você acha necessários para chegar na solução;
 * A seguir teste algumas hipóteses, mesmo sem testes. Elas vão te dar uma visão suficiente e com feedback rápido sobre a dificuldade do problema;
 * Tudo bem se você não é do time que escreve testes antes do código, mas lembre de ir criando testes ao longo do desenvolvimento. Eles vão ajudar você a não quebrar o que já funciona;
+* Tente cobrir com testes todos os casos de uso do desafio. Valide as entradas e saídas do programa. Cerifique-se de que você testou os diversos comportamentos apresentados pelo programa.
 * Utilize Makefile ou scripts para acelerar builds, execução dos diversos testes, para subir a aplicação, etc. Não esqueça de colocar na documentação do projeto todas esses comandos;
 * Valide bem sua solução. Não caia no [off by one error](https://en.wikipedia.org/wiki/Off-by-one_error). Teste seu código com entradas que você acha que podem gerar problemas. Se o problema em questão deve ser resolvido com um número pré-estabelecido de entradas, teste com algumas diferentes, explorando possíveis problemas que a própria empresa não previu.
