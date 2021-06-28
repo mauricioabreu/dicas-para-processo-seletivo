@@ -58,3 +58,7 @@ Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa,
 * Utilize Makefile ou scripts para acelerar builds, execução dos diversos testes, para subir a aplicação, etc. Não esqueça de colocar na documentação do projeto todas esses comandos;
 * Valide bem sua solução. Não caia no [off by one error](https://en.wikipedia.org/wiki/Off-by-one_error). Teste seu código com entradas que você acha que podem gerar problemas. Se o problema em questão deve ser resolvido com um número pré-estabelecido de entradas, teste com algumas diferentes, explorando possíveis problemas que a própria empresa não previu;
 * Facilite o teste do seu programa. Use alguma tecnologia de container ou provisionamento para que as pessoas revisoras não tenham que passar horas instalando os diversos componentes do seu desafio.
+
+## Materiais para estudo
+
+* [The System Design Primer](https://github.com/donnemartin/system-design-primer) é um guia de preparação para entrevistas. Nele você vai encontrar conhecimento sobre protocolos, bancos de dados, sistemas de cache, programas assíncronos, etc.
