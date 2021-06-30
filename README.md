@@ -63,3 +63,4 @@ Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa,
 ## Materiais para estudo
 
 * [The System Design Primer](https://github.com/donnemartin/system-design-primer) é um guia de preparação para entrevistas. Nele você vai encontrar conhecimento sobre protocolos, bancos de dados, sistemas de cache, programas assíncronos, etc.
+* [Refatoração](https://novatec.com.br/livros/refatoracao/) aqui um livro focado em refatoração de código. O livro discute e mostra técnicas para escrever código que seja mais fácil de entender, além de demonstrar quando se deve refatorar, como e porque e até entender quando um código não está legível o suficiente.
