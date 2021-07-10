@@ -60,6 +60,19 @@ Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa,
 * Facilite o teste do seu programa. Use alguma tecnologia de container ou provisionamento para que as pessoas revisoras não tenham que passar horas instalando os diversos componentes do seu desafio.
 * Refatore seu código antes de enviar. Com os testes feitos, você tem segurança para modificar partes que você acredita estarem pouco legíveis. Leia atentamente o código que você escreveu e se imagine dando suporte a ele daqui a 3 meses. Se você acha que vai ter dificuldade de entendê-lo, sugiro refatorar.
 
+### Pareamento
+
+Algumas empresas adotam como etapa o pareamento de código com a pessoa candidata.
+
+Nessa etapa você vai evoluir o desafio que você entregou, desenvolvendo novas extensões que vão desde novas features à mudanças expressivas nas características existentes.
+
+Tem empresa que usa essa etapa para entender como a pessoa desevolve, qual o modelo racional ela utiliza para resolver problemas. Outras usam o momento para ver como a pessoa trabalha em time e como ela recebe críticas e sugesstões sobre o código. Independente de qual desses objetivos a empresa tem, leve em consideração:
+
+* Revise as suas configurações de editor, de ambiente e qualquer outra coisa que possa virar um problema no dia;
+* Receba críticas construtivas com calma, elas vão te ajudar a corrigir possíveis erros ou trabalhar em melhorias apontadas pelas pessoas que estão pareando com você. Não leve para o lado pessoal;
+* Constantemente fale em voz alta o que você está pensando, mesmo se a ideia for absurda. Essa é uma ótima maneira de você demonstrar como você resolve problemas e, tambémm, ajuda as pessoas que estão com você a te guiar;
+* Para cada extensão desenvolvida, crie um teste. Criar o teste antes ou depois do código interessa menos do que testar.
+
 ## Materiais para estudo
 
 * [The System Design Primer](https://github.com/donnemartin/system-design-primer) é um guia de preparação para entrevistas. Nele você vai encontrar conhecimento sobre protocolos, bancos de dados, sistemas de cache, programas assíncronos, etc.
