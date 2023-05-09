@@ -108,6 +108,8 @@ Go é uma linguagem que tem sido muito usada para criar micro-serviços e há gr
 * [Concorrência](https://go.dev/doc/effective_go#concurrency): use quando você pode disparar rotinas que são usadas como jobs, por exemplo. Uma prática comum é você fazer cache de dados usando _goroutines_, exemplo: faz cache de dados de 5 em 5 minutos de uma API, sem uso de uma engenharia mais complexa de fila de jobs usando Redis.
 * [Context](https://pkg.go.dev/context): _Context_ é um pacote do Go que ajuda programas a economizarem recursos. Se você tem uma rota na sua API que a query no banco de dados demorou, você pode usar esse pacote para gerenciar o cancelamento dessa query, liberando recurso pra outras queries a serem feitas no banco.
 
+[Benchmarks](https://pkg.go.dev/testing#hdr-Benchmarks) fazem parte do framework nativo de teste do go.
+
 ## Materiais para estudo
 
 * [The System Design Primer](https://github.com/donnemartin/system-design-primer) é um guia de preparação para entrevistas. Nele você vai encontrar conhecimento sobre protocolos, bancos de dados, sistemas de cache, programas assíncronos, etc.
