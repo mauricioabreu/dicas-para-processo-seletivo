@@ -91,7 +91,11 @@ Primeiro, verificar se há gráficos que mostrem mais informações da lentidão
 
 Por fim, usar as ferramentas específicas pra isso. Se a aplicação já mede a latência (usando percentis, por exemplo) fica mais fácil ler o código relacionado para achar o problema.
 
-Um caso extremamente comum é o mal uso de SQL. A falta de join, por exemplo, pode aumentar drasticamente o número de consultas em uma simples página.
+Um caso extremamente comum é o mal uso de SQL. A falta de join, por exemplo, pode aumentar drasticamente o número de consultas em uma simples página. Outro mal uso de SQL ou de bancos de dados em geral, é uso errado de índices.
+
+#### "Uso errado de índices" 
+
+Pode ser pela falta dos mesmos, pelo excesso ou pelo uso em situações inadequadas. Índices aumentam a velocidade das consultas (*queries*), porém diminuem a velocidade das operações de escrita (*write*). Portanto, em cenários de aplicações *write-heavy* pode não ser ideal usar muitos índices, visto que as operações que de leitura, as quais se beneficiam de índices, serão minoria.
 
 **Aplicação está utilizando muita memória, como resolver?**
 
