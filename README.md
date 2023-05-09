@@ -81,6 +81,10 @@ Abaixo descrevemos algumas perguntas e respostas. As respostas podem variar de a
 
 ### Performance geral de aplicações
 
+Performance é um tópico não exclusivamente está relacionado a CPU e memória. Performance é, também, sobre erros, latência, _freshness_, etc.
+
+Um ponto genérico a se discutir sobre aplicações é que, sem medir, dificilmente você vai focar os esforços de otimização no lugar correto, e isso piora com o tamanho da sua aplicação e componentes envolvidos.
+
 **Minha aplicação está demorando para carregar, como encontrar onde está o problema?**
 
 Primeiro, verificar se há gráficos que mostrem mais informações da lentidão. Quais os horários, qual a aplicação, etc. Segundo, entender qual parte da aplicação está demorando, se é um job, uma rota de uma API.
@@ -98,6 +102,11 @@ Identificar onde exatamente é o primeiro passo. Da minha experiência, boa part
 ### Go
 
 Go é uma linguagem que tem sido muito usada para criar micro-serviços e há grandes aplicações escritas nela, como o Kubernetes, além de outros inúmeros softwares de vídeo, chat e ferramentas de observabilidade, como Prometheus e Grafana.
+
+**Como otimizar a performance de um programa em go?**
+
+* [Concorrência](https://go.dev/doc/effective_go#concurrency): use quando você pode disparar rotinas que são usadas como jobs, por exemplo. Uma prática comum é você fazer cache de dados usando _goroutines_, exemplo: faz cache de dados de 5 em 5 minutos de uma API, sem uso de uma engenharia mais complexa de fila de jobs usando Redis.
+* [Context](https://pkg.go.dev/context): _Context_ é um pacote do Go que ajuda programas a economizarem recursos. Se você tem uma rota na sua API que a query no banco de dados demorou, você pode usar esse pacote para gerenciar o cancelamento dessa query, liberando recurso pra outras queries a serem feitas no banco.
 
 ## Materiais para estudo
 
