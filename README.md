@@ -60,6 +60,30 @@ Essa é a etapa onde maior parte do nosso foco é concentrado, e não é à toa,
 * Facilite o teste do seu programa. Use alguma tecnologia de container ou provisionamento para que as pessoas revisoras não tenham que passar horas instalando os diversos componentes do seu desafio.
 * Refatore seu código antes de enviar. Com os testes feitos, você tem segurança para modificar partes que você acredita estarem pouco legíveis. Leia atentamente o código que você escreveu e se imagine dando suporte a ele daqui a 3 meses. Se você acha que vai ter dificuldade de entendê-lo, sugiro refatorar.
 
+### Questões de backend
+
+Algumas questões em entrevistas para vaga de backend são bem frequentes. Elas podem variar desde design de código do backend até utilização de bancos de dados, ferramentas de deploy, até conhecimentos específicos sobre _runtime_ de linguagens.
+
+Abaixo descrevemos algumas perguntas e respostas. As respostas podem variar de acordo com o cenário proposto, então a dica é sempre coletar maiores detalhes sobre o objetivo da pergunta.
+
+#### Performance geral de aplicações
+
+*P: Minha aplicação está demorando para carregar, como encontrar onde está o problema?*
+
+_R: Primeiro, verificar se há gráficos que mostrem mais informações da lentidão. Quais os horários, qual a aplicação, etc. Segundo, entender qual parte da aplicação está demorando, se é um job, uma rota de uma API.
+Por fim, usar as ferramentas específicas pra isso. Se a aplicação já mede a latência (usando percentis, por exemplo) fica mais fácil ler o código relacionado para achar o problema.
+Um caso extremamente comum é o mal uso de SQL. A falta de join, por exemplo, pode aumentar drasticamente o número de consultas em uma simples página._
+
+*P: Aplicação está utilizando muita memória, como resolver?*
+
+_R: Identificar onde exatamente é o primeiro passo. Da minha experiência, boa parte do mal uso de memória tende a estar relacionado com largas coleções sendo carregadas em memória. Usar técnicas como lazy evaluation, generators, cursores e similares podem melhorar e muito a performance de aplicações web._
+
+[Flamegraphs](https://www.brendangregg.com/flamegraphs.html) são ótimos pra entender, no detalhe, qual parte da sua aplicação está usando memória excessiva. Entender onde exatamente mora o problema com números é mais produtivo do que analisar o código linha a linha eliminando casos usando intuição.
+
+#### Go
+
+Go é uma linguagem que tem sido muito usada para criar micro-serviços e há grandes aplicações escritas nela, como o Kubernetes, além de outros inúmeros softwares de vídeo, chat e ferramentas de observabilidade, como Prometheus e Grafana.
+
 ### Pareamento
 
 Algumas empresas adotam como etapa o pareamento de código com a pessoa candidata.
