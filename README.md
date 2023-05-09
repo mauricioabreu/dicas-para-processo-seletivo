@@ -81,17 +81,17 @@ Abaixo descrevemos algumas perguntas e respostas. As respostas podem variar de a
 
 ### Performance geral de aplicações
 
-**P: Minha aplicação está demorando para carregar, como encontrar onde está o problema?**
+**Minha aplicação está demorando para carregar, como encontrar onde está o problema?**
 
-R: Primeiro, verificar se há gráficos que mostrem mais informações da lentidão. Quais os horários, qual a aplicação, etc. Segundo, entender qual parte da aplicação está demorando, se é um job, uma rota de uma API.
+Primeiro, verificar se há gráficos que mostrem mais informações da lentidão. Quais os horários, qual a aplicação, etc. Segundo, entender qual parte da aplicação está demorando, se é um job, uma rota de uma API.
 
 Por fim, usar as ferramentas específicas pra isso. Se a aplicação já mede a latência (usando percentis, por exemplo) fica mais fácil ler o código relacionado para achar o problema.
 
 Um caso extremamente comum é o mal uso de SQL. A falta de join, por exemplo, pode aumentar drasticamente o número de consultas em uma simples página.
 
-**P: Aplicação está utilizando muita memória, como resolver?**
+**Aplicação está utilizando muita memória, como resolver?**
 
-R: Identificar onde exatamente é o primeiro passo. Da minha experiência, boa parte do mal uso de memória tende a estar relacionado com largas coleções sendo carregadas em memória. Usar técnicas como lazy evaluation, generators, cursores e similares podem melhorar e muito a performance de aplicações web.
+Identificar onde exatamente é o primeiro passo. Da minha experiência, boa parte do mal uso de memória tende a estar relacionado com largas coleções sendo carregadas em memória. Usar técnicas como lazy evaluation, generators, cursores e similares podem melhorar e muito a performance de aplicações web.
 
 [Flamegraphs](https://www.brendangregg.com/flamegraphs.html) são ótimos pra entender, no detalhe, qual parte da sua aplicação está usando memória excessiva. Entender onde exatamente mora o problema com números é mais produtivo do que analisar o código linha a linha eliminando casos usando intuição.
 
